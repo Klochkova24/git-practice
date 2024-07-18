@@ -2,8 +2,8 @@
 
 for file in *.txt; do
     if echo "$file" | grep -q "book"; then
-        echo "Файл $file имеет слово 'book' в названии"
+        echo "Файл $file соответствует формату"
     else
-        echo "Файл $file не имеет слово 'book' в названии"
+        echo "Файл $file не соответствует формату"
     fi
 done
